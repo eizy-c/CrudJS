@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Lista de nombres</title>
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+	</head>
+	<body>
+		<div class="container py-5">
+			<div class="row">
+				<div class="col-md-6 offset-md-3">
+					<div class="text-center">
+						<h2>CRUD con <b title="ECMAScript es una especificación de lenguaje de programación publicada por ECMA International. El desarrollo empezó en 1996 y estuvo basado en el popular lenguaje JavaScript propuesto como estándar por Netscape Communications Corporation.">ES9</b> y la <b>dataStorage</b> del navegador</h2>
+						<small class="text-right">Autor: <b><a href="https://www.facebook.com/EizagaYC" target="_blank">Yoangel eizaga</a></b></small>
+					</div>
+					<div class="card p-3">
+						<form id="form">
+						  <div class="form-group">
+						    <label for="nombre" class="font-weight-bold">Ingresa un nombre</label>
+						    <input type="text" class="form-control" id="inputText">
+						    <small class="form-text text-muted float-right">Presione ENTER para registrar</small>
+						    <div class="invalid-feedback">No puedes dejar este campo vació</div>
+						    <div class="valid-feedback">Registro exitoso!</div>
+						  </div>
+						</form>
+					</div>
+
+					<div id="list"></div>
+				</div>
+
+			</div>
+		</div>
+	</body>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+</html>
